@@ -3,6 +3,7 @@ name: Java Maven Build
 on:
   push:
     branches: [ "master" ]
+  workflow_dispatch: 
 
 jobs:
   maven:
